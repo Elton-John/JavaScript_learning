@@ -25,11 +25,12 @@ console.log(array1.unshift(10,9,8));
 console.log(array1);
 
 console.log("-----arr.splice() – usuń (ew. zamień) i zwróć kawałek tablicy----------------");
+console.log(array1);
 console.log(array1.splice(0,3,"kot", "pies", "łoś"));
 console.log(array1);
 
 console.log("----arr.sort() – posortuj elementy na podstawie przekazanej funkcji-----------------");
-array1.push(22,56,11, "alpaka", "a");
+//array1.push(22,56,11, "alpaka", "a");
 console.log(array1.sort());
 console.log(array1.sort(function (a,b) {
 return a - b;
